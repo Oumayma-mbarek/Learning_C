@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "PowerMake Debug",
+            "type": "cppdbg",
+            "preLaunchTask": "powermake_compile",
+            "request": "launch",
+            "program": "/home/noix/Documents/C/build/Linux/x64/debug/bin/len_using_pointers",
+            "args": [],
+            "cwd": "${workspaceFolder}"
+        },
+        {
+            "name": "Python Debug",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${file}",
+            "args": [],
+            "justMyCode": false
+        }
+    ]
+}

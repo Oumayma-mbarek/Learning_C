@@ -1,0 +1,36 @@
+[
+    {
+        "directory": "/home/noix/Documents/C",
+        "arguments": [
+            "/usr/bin/gcc",
+            "-c",
+            "-o",
+            "build/.objs/Linux/x64/debug/len_using_pointers.c.o",
+            "len_using_pointers.c",
+            "-DDEBUG",
+            "-g",
+            "-Og",
+            "-fdiagnostics-color",
+            "-Wall",
+            "-Wextra",
+            "-fanalyzer"
+        ],
+        "output": "build/.objs/Linux/x64/debug/len_using_pointers.c.o",
+        "file": "len_using_pointers.c"
+    },
+    {
+        "directory": "/home/noix/Documents/C",
+        "arguments": [
+            "/usr/bin/g++",
+            "-o",
+            "build/Linux/x64/debug/bin/len_using_pointers",
+            "build/.objs/Linux/x64/debug/len_using_pointers.c.o",
+            "-fdiagnostics-color",
+            "-Wall",
+            "-Wextra",
+            "-fanalyzer"
+        ],
+        "output": "build/Linux/x64/debug/bin/len_using_pointers",
+        "file": "build/.objs/Linux/x64/debug/len_using_pointers.c.o"
+    }
+]

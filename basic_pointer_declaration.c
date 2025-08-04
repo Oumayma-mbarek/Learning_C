@@ -4,7 +4,7 @@ int main() {
 
     int m=10;
     int n,o;
-    int* z= &m;
+    int * z= &m;
 
     printf(" Here is m=10, n and o are two integer variable and *z is an integer");
     printf("\n\n z stores the address of m  = %p\n", z); // Printing the address stored in z using %p
@@ -17,11 +17,6 @@ int main() {
     //to change the value of m using its pointer z
     *z= 2;
     printf("\n\n new value of m is %i\n", *z);
-    int *rndmp ;
-    printf("\n initial value of the pointer %p\n", rndmp);
-    
-    int num=55;
-    rndmp = &num;
 
     return 0;
 
