@@ -1,5 +1,8 @@
 #include <stdio.h>
 
+//returns the value obtained by replacing the n bits of x 
+//starting at position p with the n rightmost bits of y, without changing the other bits
+
 int lirebits(__u_int x,__u_int p, __u_int n){
     return (x>> (p+1-n)) & ~(~0 << n);
 }
