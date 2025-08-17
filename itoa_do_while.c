@@ -37,3 +37,8 @@ int main(){
     printf("%s\n",s);
     return 0;
 }
+
+// note that this function could not work for smallest negative integer -(2^31)
+// because integers have an interval of [-2^31, 2^31 -1] which means 
+//when converting n to -n it will exceed the maximum
+// we can solve this problem by affecting the value to a long long int 
